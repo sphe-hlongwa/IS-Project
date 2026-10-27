@@ -1,46 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\IS_project_git\\IS project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|c:\\users\\administrator\\desktop\\is project\\is project\\tutacadapp\\forms\\bookingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\bookingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|c:\\users\\administrator\\desktop\\is_project_git\\is project\\tutacadapp\\forms\\shellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\shellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|c:\\users\\administrator\\desktop\\is project\\is project\\tutacadapp\\forms\\bookingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\bookingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|c:\\users\\administrator\\desktop\\is_project_git\\is project\\tutacadapp\\forms\\shellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\shellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\tutacadapp\\forms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|c:\\users\\administrator\\desktop\\is_project_git\\is project\\tutacadapp\\forms\\availabilityform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\availabilityform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|c:\\users\\administrator\\desktop\\is project\\is project\\tutacadapp\\forms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\tutacadapp\\forms\\sessionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\sessionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|c:\\users\\administrator\\desktop\\is project\\is project\\tutacadapp\\forms\\sessionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\sessionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|c:\\users\\administrator\\desktop\\is project\\is project\\tutacadapp\\forms\\tutorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\tutorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|c:\\users\\administrator\\desktop\\is project\\is project\\tutacadapp\\forms\\tutorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\tutorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|c:\\users\\administrator\\desktop\\is project\\is project\\tutacadapp\\forms\\requestsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\requestsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\tutacadapp\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|c:\\users\\administrator\\desktop\\is_project_git\\is project\\tutacadapp\\forms\\availabilityform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F86C713-054F-4E82-9DDC-DD271CED343B}|TutAcadApp\\TutAcadSupport.csproj|solutionrelative:tutacadapp\\forms\\availabilityform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,128 +31,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookingsForm.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\BookingsForm.cs",
-              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\BookingsForm.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\BookingsForm.cs",
-              "RelativeToolTip": "TutAcadApp\\Forms\\BookingsForm.cs",
-              "ViewState": "AgIAAKUBAAAAAAAAAAAcwM4AAAAMAAAAAAAAAA==",
+              "Title": "ShellForm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS_project_git\\IS project\\TutAcadApp\\Forms\\ShellForm.cs",
+              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\ShellForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS_project_git\\IS project\\TutAcadApp\\Forms\\ShellForm.cs*",
+              "RelativeToolTip": "TutAcadApp\\Forms\\ShellForm.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T14:12:40.635Z",
+              "WhenOpened": "2026-10-27T14:31:09.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BookingsForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\BookingsForm.cs",
-              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\BookingsForm.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\BookingsForm.cs [Design]",
-              "RelativeToolTip": "TutAcadApp\\Forms\\BookingsForm.cs [Design]",
+              "Title": "ShellForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS_project_git\\IS project\\TutAcadApp\\Forms\\ShellForm.cs",
+              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\ShellForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS_project_git\\IS project\\TutAcadApp\\Forms\\ShellForm.cs [Design]*",
+              "RelativeToolTip": "TutAcadApp\\Forms\\ShellForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T14:12:37.514Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\DashboardForm.cs",
-              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\DashboardForm.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\DashboardForm.cs [Design]",
-              "RelativeToolTip": "TutAcadApp\\Forms\\DashboardForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T14:12:29.756Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SessionsForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\SessionsForm.cs",
-              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\SessionsForm.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\SessionsForm.cs [Design]",
-              "RelativeToolTip": "TutAcadApp\\Forms\\SessionsForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T14:12:20.69Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TutorsForm.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\TutorsForm.cs",
-              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\TutorsForm.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\TutorsForm.cs",
-              "RelativeToolTip": "TutAcadApp\\Forms\\TutorsForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T14:12:13.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TutorsForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\TutorsForm.cs",
-              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\TutorsForm.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\TutorsForm.cs [Design]",
-              "RelativeToolTip": "TutAcadApp\\Forms\\TutorsForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T14:12:10.544Z",
+              "WhenOpened": "2026-10-27T14:31:06.938Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DashboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\DashboardForm.cs",
-              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\DashboardForm.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\DashboardForm.cs",
-              "RelativeToolTip": "TutAcadApp\\Forms\\DashboardForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAAMAAAAAAAAAA==",
+              "Title": "AvailabilityForm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS_project_git\\IS project\\TutAcadApp\\Forms\\AvailabilityForm.cs",
+              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\AvailabilityForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS_project_git\\IS project\\TutAcadApp\\Forms\\AvailabilityForm.cs",
+              "RelativeToolTip": "TutAcadApp\\Forms\\AvailabilityForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T13:34:35.312Z",
+              "WhenOpened": "2026-10-27T14:30:56.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SessionsForm.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\SessionsForm.cs",
-              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\SessionsForm.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\SessionsForm.cs",
-              "RelativeToolTip": "TutAcadApp\\Forms\\SessionsForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AvailabilityForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS_project_git\\IS project\\TutAcadApp\\Forms\\AvailabilityForm.cs",
+              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\AvailabilityForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS_project_git\\IS project\\TutAcadApp\\Forms\\AvailabilityForm.cs [Design]",
+              "RelativeToolTip": "TutAcadApp\\Forms\\AvailabilityForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T13:34:35.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RequestsForm.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\RequestsForm.cs",
-              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\RequestsForm.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\RequestsForm.cs",
-              "RelativeToolTip": "TutAcadApp\\Forms\\RequestsForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T14:04:51.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "TutAcadApp\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\IS project\\IS project\\TutAcadApp\\Forms\\LoginForm.cs",
-              "RelativeToolTip": "TutAcadApp\\Forms\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T13:34:35.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T14:30:52.149Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

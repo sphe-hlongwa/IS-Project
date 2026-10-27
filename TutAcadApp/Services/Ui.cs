@@ -247,8 +247,13 @@ internal static class Ui {
 
  // Behaviour only: look and layout live in each form's Designer file.
  public static void Behave(Form form){
-  form.Shown+=(s,e)=>Fit(form);
-  form.Resize+=(s,e)=>Fit(form);
+  // The shell hosts the pages (each page fits itself), so only stand-alone/page forms need Fit.
+  if(!(form is ShellForm)){
+   form.Shown+=(s,e)=>Fit(form);
+   form.Resize+=(s,e)=>Fit(form);
+   form.VisibleChanged+=(s,e)=>{if(form.Visible)Fit(form);};
+  }
+  if(form is LoginForm)LoginLayout(form);
   var tip=new ToolTip();
   form.Disposed+=(s,e)=>tip.Dispose();
   foreach(Control c in All(form)){

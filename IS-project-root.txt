@@ -1,0 +1,1 @@
+TutAcadSupport shared database root. Keep Database and TutAcadApp together.

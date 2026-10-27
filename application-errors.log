@@ -1,0 +1,135 @@
+2026-10-23T19:55:39 System.InvalidOperationException: Incorrect username or password.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.Auth.Login(String username, String password) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\Auth.cs:line 10
+   at TutAcadSupport.LoginForm.<login_Click>b__24_0() in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Forms\LoginForm.cs:line 6
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-23T19:57:14 System.InvalidOperationException: Student number must contain 7 to 10 digits.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.Auth.Register(String number, String first, String last, String contact, String faculty, String programme, DateTime birth, String password) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\Auth.cs:line 17
+   at TutAcadSupport.RegisterForm.<save_Click>b__44_0() in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Forms\RegisterForm.cs:line 6
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-23T19:57:30 System.InvalidOperationException: Enter a valid phone number or email address.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.Rules.Contact(String value) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\Rules.cs:line 9
+   at TutAcadSupport.Auth.Register(String number, String first, String last, String contact, String faculty, String programme, DateTime birth, String password) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\Auth.cs:line 17
+   at TutAcadSupport.RegisterForm.<save_Click>b__44_0() in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Forms\RegisterForm.cs:line 6
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-23T19:57:47 System.InvalidOperationException: Use a password of 8 to 128 characters.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.Rules.Password(String value) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\Rules.cs:line 13
+   at TutAcadSupport.Auth.Register(String number, String first, String last, String contact, String faculty, String programme, DateTime birth, String password) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\Auth.cs:line 17
+   at TutAcadSupport.RegisterForm.<save_Click>b__44_0() in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Forms\RegisterForm.cs:line 6
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS project\IS_project_Final\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-24T20:41:42 System.InvalidOperationException: Choose a future time.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.Rules.Period(DateTime start, DateTime end, DateTime now) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Rules.cs:line 10
+   at TutAcadSupport.School.SaveAvailability(String tutor, Int32 id, DateTime start, DateTime end, Boolean delete) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\School.cs:line 40
+   at TutAcadSupport.AvailabilityForm.<add_Click>b__31_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\AvailabilityForm.cs:line 8
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-24T20:42:01 System.Data.OleDb.OleDbException (0x8004D008): Neither the isolation level nor a strengthening of it is supported.
+   at System.Data.OleDb.OleDbTransaction.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbTransaction.BeginInternal(ITransactionLocal transaction)
+   at System.Data.OleDb.OleDbConnectionInternal.BeginTransaction(IsolationLevel isolationLevel)
+   at System.Data.OleDb.OleDbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at TutAcadSupport.School.SaveAvailability(String tutor, Int32 id, DateTime start, DateTime end, Boolean delete) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\School.cs:line 40
+   at TutAcadSupport.AvailabilityForm.<add_Click>b__31_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\AvailabilityForm.cs:line 8
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-24T20:43:59 System.Data.OleDb.OleDbException (0x8004D008): Neither the isolation level nor a strengthening of it is supported.
+   at System.Data.OleDb.OleDbTransaction.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbTransaction.BeginInternal(ITransactionLocal transaction)
+   at System.Data.OleDb.OleDbConnectionInternal.BeginTransaction(IsolationLevel isolationLevel)
+   at System.Data.OleDb.OleDbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at TutAcadSupport.School.Match(String request, String tutor, DateTime start, DateTime end) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\School.cs:line 35
+   at TutAcadSupport.RequestsForm.<match_Click>b__33_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\RequestsForm.cs:line 10
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-24T20:44:27 System.Data.OleDb.OleDbException (0x8004D008): Neither the isolation level nor a strengthening of it is supported.
+   at System.Data.OleDb.OleDbTransaction.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbTransaction.BeginInternal(ITransactionLocal transaction)
+   at System.Data.OleDb.OleDbConnectionInternal.BeginTransaction(IsolationLevel isolationLevel)
+   at System.Data.OleDb.OleDbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at TutAcadSupport.School.Match(String request, String tutor, DateTime start, DateTime end) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\School.cs:line 35
+   at TutAcadSupport.RequestsForm.<match_Click>b__33_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\RequestsForm.cs:line 10
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-24T20:44:41 System.InvalidOperationException: Select a Submitted request.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.RequestsForm.<find_Click>b__32_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\RequestsForm.cs:line 9
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-24T20:47:37 System.Data.OleDb.OleDbException (0x8004D008): Neither the isolation level nor a strengthening of it is supported.
+   at System.Data.OleDb.OleDbTransaction.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbTransaction.BeginInternal(ITransactionLocal transaction)
+   at System.Data.OleDb.OleDbConnectionInternal.BeginTransaction(IsolationLevel isolationLevel)
+   at System.Data.OleDb.OleDbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at TutAcadSupport.School.SaveAvailability(String tutor, Int32 id, DateTime start, DateTime end, Boolean delete) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\School.cs:line 40
+   at TutAcadSupport.AvailabilityForm.<delete_Click>b__33_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\AvailabilityForm.cs:line 10
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-24T20:47:42 System.Data.OleDb.OleDbException (0x8004D008): Neither the isolation level nor a strengthening of it is supported.
+   at System.Data.OleDb.OleDbTransaction.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbTransaction.BeginInternal(ITransactionLocal transaction)
+   at System.Data.OleDb.OleDbConnectionInternal.BeginTransaction(IsolationLevel isolationLevel)
+   at System.Data.OleDb.OleDbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at TutAcadSupport.School.SaveAvailability(String tutor, Int32 id, DateTime start, DateTime end, Boolean delete) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\School.cs:line 40
+   at TutAcadSupport.AvailabilityForm.<add_Click>b__31_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\AvailabilityForm.cs:line 8
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-24T20:48:16 System.Data.OleDb.OleDbException (0x8004D008): Neither the isolation level nor a strengthening of it is supported.
+   at System.Data.OleDb.OleDbTransaction.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbTransaction.BeginInternal(ITransactionLocal transaction)
+   at System.Data.OleDb.OleDbConnectionInternal.BeginTransaction(IsolationLevel isolationLevel)
+   at System.Data.OleDb.OleDbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at TutAcadSupport.School.SaveAvailability(String tutor, Int32 id, DateTime start, DateTime end, Boolean delete) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\School.cs:line 40
+   at TutAcadSupport.AvailabilityForm.<add_Click>b__31_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\AvailabilityForm.cs:line 8
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-25T20:08:36 System.InvalidOperationException: Select a Submitted request.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.RequestsForm.<find_Click>b__32_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\RequestsForm.cs:line 9
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-25T20:08:41 System.InvalidOperationException: Select a Submitted request.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.RequestsForm.<find_Click>b__32_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\RequestsForm.cs:line 9
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-25T20:08:58 System.InvalidOperationException: Select a Submitted request.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.RequestsForm.<find_Click>b__32_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\RequestsForm.cs:line 9
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-25T20:09:06 System.InvalidOperationException: Select a Submitted request.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.RequestsForm.<find_Click>b__32_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\RequestsForm.cs:line 9
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-25T20:09:14 System.InvalidOperationException: Select a Submitted request.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.RequestsForm.<find_Click>b__32_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\RequestsForm.cs:line 9
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-26T14:51:16 System.InvalidOperationException: Incorrect username or password.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.Auth.Login(String username, String password) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Auth.cs:line 10
+   at TutAcadSupport.LoginForm.<login_Click>b__25_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\LoginForm.cs:line 6
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-26T14:51:27 System.InvalidOperationException: Incorrect username or password.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.Auth.Login(String username, String password) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Auth.cs:line 10
+   at TutAcadSupport.LoginForm.<login_Click>b__25_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\LoginForm.cs:line 6
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-26T14:55:41 System.InvalidOperationException: Select or save a tutor first.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.TutorsForm.<qualify_Click>b__60_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\TutorsForm.cs:line 12
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-26T14:55:49 System.InvalidOperationException: Tutor already has that qualification.
+   at TutAcadSupport.Rules.Require(Boolean value, String message) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\Rules.cs:line 7
+   at TutAcadSupport.School.Qualify(String tutor, String course) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\School.cs:line 52
+   at TutAcadSupport.TutorsForm.<qualify_Click>b__60_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\TutorsForm.cs:line 12
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-26T14:57:17 System.Data.OleDb.OleDbException (0x8004D008): Neither the isolation level nor a strengthening of it is supported.
+   at System.Data.OleDb.OleDbTransaction.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbTransaction.BeginInternal(ITransactionLocal transaction)
+   at System.Data.OleDb.OleDbConnectionInternal.BeginTransaction(IsolationLevel isolationLevel)
+   at System.Data.OleDb.OleDbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at TutAcadSupport.School.Match(String request, String tutor, DateTime start, DateTime end) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\School.cs:line 35
+   at TutAcadSupport.RequestsForm.<match_Click>b__33_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\RequestsForm.cs:line 10
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9
+2026-10-26T15:03:39 System.Data.OleDb.OleDbException (0x8004D008): Neither the isolation level nor a strengthening of it is supported.
+   at System.Data.OleDb.OleDbTransaction.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbTransaction.BeginInternal(ITransactionLocal transaction)
+   at System.Data.OleDb.OleDbConnectionInternal.BeginTransaction(IsolationLevel isolationLevel)
+   at System.Data.OleDb.OleDbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at TutAcadSupport.School.Book(String course, String tutor, String support, DateTime start, DateTime end) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\School.cs:line 24
+   at TutAcadSupport.BookingsForm.<book_Click>b__65_0() in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Forms\BookingsForm.cs:line 10
+   at TutAcadSupport.View.Run(Action action) in C:\Users\Administrator\Desktop\Anonsurf\IS_project_modernised_v9\IS project\TutAcadApp\Services\View.cs:line 9

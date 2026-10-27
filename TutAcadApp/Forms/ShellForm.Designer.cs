@@ -1,0 +1,86 @@
+namespace TutAcadSupport {
+partial class ShellForm {
+ private System.ComponentModel.IContainer components = null;
+ protected override void Dispose(bool disposing){if(disposing&&components!=null)components.Dispose();base.Dispose(disposing);}
+ private void InitializeComponent(){
+  this.components=new System.ComponentModel.Container();
+  this.navigation=new System.Windows.Forms.MenuStrip();
+  this.home=new System.Windows.Forms.ToolStripMenuItem("Home");
+  this.bookings=new System.Windows.Forms.ToolStripMenuItem("My bookings");
+  this.tutors=new System.Windows.Forms.ToolStripMenuItem("Tutors");
+  this.requests=new System.Windows.Forms.ToolStripMenuItem("Support requests");
+  this.availability=new System.Windows.Forms.ToolStripMenuItem("Availability");
+  this.sessions=new System.Windows.Forms.ToolStripMenuItem("Attendance");
+  this.reports=new System.Windows.Forms.ToolStripMenuItem("Reports");
+  this.account=new System.Windows.Forms.ToolStripMenuItem("Account");
+  this.password=new System.Windows.Forms.ToolStripMenuItem("Change password");
+  this.logout=new System.Windows.Forms.ToolStripMenuItem("Sign out");
+  this.trail=new System.Windows.Forms.ToolStrip();
+  this.back=new System.Windows.Forms.ToolStripButton("Back");
+  this.homeButton=new System.Windows.Forms.ToolStripButton("Home");
+  this.breadcrumb=new System.Windows.Forms.ToolStripLabel("Home");
+  this.identity=new System.Windows.Forms.ToolStripLabel();
+  this.contentHost=new System.Windows.Forms.Panel();
+  this.statusStrip=new System.Windows.Forms.StatusStrip();
+  this.status=new System.Windows.Forms.ToolStripStatusLabel("Ready");
+  this.SuspendLayout();
+  this.navigation.Items.AddRange(new System.Windows.Forms.ToolStripItem[]{this.home,this.bookings,this.tutors,this.requests,this.availability,this.sessions,this.reports,this.account});
+  this.account.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[]{this.password,this.logout});
+  this.navigation.Dock=System.Windows.Forms.DockStyle.Top;
+  this.navigation.Font=new System.Drawing.Font("Segoe UI",11F);
+  this.navigation.Padding=new System.Windows.Forms.Padding(12,10,12,10);
+  this.navigation.BackColor=System.Drawing.Color.FromArgb(13, 23, 42);
+  this.navigation.ForeColor=System.Drawing.Color.White;
+  this.home.Click+=new System.EventHandler(this.Home_Click);
+  this.bookings.Click+=new System.EventHandler(this.Bookings_Click);
+  this.tutors.Click+=new System.EventHandler(this.Tutors_Click);
+  this.requests.Click+=new System.EventHandler(this.Requests_Click);
+  this.availability.Click+=new System.EventHandler(this.Availability_Click);
+  this.sessions.Click+=new System.EventHandler(this.Sessions_Click);
+  this.reports.Click+=new System.EventHandler(this.Reports_Click);
+  this.password.Click+=new System.EventHandler(this.Password_Click);
+  this.logout.Click+=new System.EventHandler(this.Logout_Click);
+  this.trail.Dock=System.Windows.Forms.DockStyle.Top;
+  this.trail.GripStyle=System.Windows.Forms.ToolStripGripStyle.Hidden;
+  this.trail.Padding=new System.Windows.Forms.Padding(12,6,12,6);
+  this.trail.Items.AddRange(new System.Windows.Forms.ToolStripItem[]{this.back,this.homeButton,this.breadcrumb,this.identity});
+  this.identity.Alignment=System.Windows.Forms.ToolStripItemAlignment.Right;
+  this.back.Click+=new System.EventHandler(this.Back_Click);
+  this.homeButton.Click+=new System.EventHandler(this.Home_Click);
+  this.contentHost.Dock=System.Windows.Forms.DockStyle.Fill;
+  this.statusStrip.Dock=System.Windows.Forms.DockStyle.Bottom;
+  this.status.Spring=true;
+  this.status.TextAlign=System.Drawing.ContentAlignment.MiddleLeft;
+  this.statusStrip.Items.Add(this.status);
+  this.contentHost.BackColor=System.Drawing.Color.FromArgb(251, 249, 245);
+  this.trail.BackColor=System.Drawing.Color.White;
+  this.statusStrip.BackColor=System.Drawing.Color.FromArgb(13, 23, 42);
+  this.statusStrip.ForeColor=System.Drawing.Color.FromArgb(190, 200, 218);
+  this.BackColor=System.Drawing.Color.FromArgb(251, 249, 245);
+  this.Controls.Add(this.contentHost);
+  this.Controls.Add(this.trail);
+  this.Controls.Add(this.navigation);
+  this.Controls.Add(this.statusStrip);
+  this.MainMenuStrip=this.navigation;
+  this.AutoScaleDimensions=new System.Drawing.SizeF(96F,96F);
+  this.AutoScaleMode=System.Windows.Forms.AutoScaleMode.Dpi;
+  this.Font=new System.Drawing.Font("Segoe UI",10F);
+  this.ClientSize=new System.Drawing.Size(1180,780);
+  this.MinimumSize=new System.Drawing.Size(850,550);
+  this.StartPosition=System.Windows.Forms.FormStartPosition.CenterScreen;
+  this.Text="TutAcadSupport | Stack Overflowed";
+  this.Load+=new System.EventHandler(this.Form_Load);
+  this.FormClosing+=new System.Windows.Forms.FormClosingEventHandler(this.Shell_Closing);
+  this.ResumeLayout(false);
+  this.PerformLayout();
+ }
+ private System.Windows.Forms.MenuStrip navigation;
+ private System.Windows.Forms.ToolStripMenuItem home,bookings,tutors,requests,availability,sessions,reports,account,password,logout;
+ private System.Windows.Forms.ToolStrip trail;
+ private System.Windows.Forms.ToolStripButton back,homeButton;
+ private System.Windows.Forms.ToolStripLabel breadcrumb,identity;
+ private System.Windows.Forms.Panel contentHost;
+ private System.Windows.Forms.StatusStrip statusStrip;
+ private System.Windows.Forms.ToolStripStatusLabel status;
+}
+}
